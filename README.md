@@ -9,4 +9,4 @@ Dev pi pico environment in C for vscode
 - Run `make deps` to download deps folder.
 - Run `make deps-install` to install dependencies in container (this will take a while).
 - Run `make build`, it will create a build subfolder, and prepare cmake for environment.
-- Copy build/out/pico-dev (renamed to your project's name) to the mounted pi.
+- Your binaries will be copied to bin/, explore it for various files to copy to your pico!
